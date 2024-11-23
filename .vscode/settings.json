@@ -3,7 +3,7 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
@@ -45,6 +45,8 @@
   },
   "tailwindCSS.experimental.configFile": "./tailwind.config.js",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "workbench.iconTheme": "vscode-icons",
-  "breadcrumbs.enabled": true
+  // "workbench.iconTheme": "vscode-icons",
+  "breadcrumbs.enabled": true,
+  "WillLuke.nextjs.addTypesOnSave": true,
+  "WillLuke.nextjs.hasPrompted": true
 }
