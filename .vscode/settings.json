@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "editor.wordWrap": "on",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
@@ -15,7 +15,7 @@
     "typescript",
     "typescriptreact"
   ],
-  "emmet.includeLanguages": {
+  "emmet.include Languages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
