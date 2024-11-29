@@ -28,7 +28,7 @@ export const AlertModal: React.FC<AlertModalProps> = ({
     }
 
     return (
-        <Modal title="Apakah anda yakin?" description="This action cannot be undone." isOpen={isOpen} onClose={onClose}>
+        <Modal title="Apakah anda yakin?" description="Tindakan ini tidak dapat dibatalkan" isOpen={isOpen} onClose={onClose}>
             <div className="pt-6 space-x-2 flex items-center justify-end w-full">
                 <Button disabled={loading} variant="outline" onClick={onClose}>Cancel</Button>
                 <Button disabled={loading} variant="destructive" onClick={onConfirm}>Continue</Button>
