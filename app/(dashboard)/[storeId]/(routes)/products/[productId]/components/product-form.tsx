@@ -119,7 +119,12 @@ export const ProductForm: React.FC<ProductFormProps> = ({ initialData, categorie
                         <FormItem>
                             <FormLabel>Images</FormLabel>
                             <FormControl>
-                                <ImageUpload disabled={loading} onChange={(url) => field.onChange([...field.value, { url }])} onRemove={(url) => field.onChange([...field.value.filter((current) => current.url !== url)])} value={field.value.map((image) => image.url)} />
+                                <ImageUpload
+                                    disabled={loading}
+                                    onChange={(url) => field.onChange([...field.value, { url }])}
+                                    onRemove={(url) => field.onChange([...field.value.filter((current) => current.url !== url)])}
+                                    value={field.value.map((image) => image.url)}
+                                />
                             </FormControl>
                             <FormMessage />
                         </FormItem>
