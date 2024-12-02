@@ -7,7 +7,7 @@ import { CellAction } from "./cell-action"
 // You can use a Zod schema here if you want.
 export type ProductColumn = {
   id: string
-  label: string
+  name: string
   price: string
   category: string
   isFeatured: boolean
